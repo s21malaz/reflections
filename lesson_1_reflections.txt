@@ -1,0 +1,36 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+It was such a small typo that combing mannually through the files would have been nearly impossible to find.
+
+learning how to compare versions of a program with:
+FC file_name_1 file_name_2
+
+other commands learnt:
+cd ~                         	 	# change directories to your home directory
+mkdir version-control         		# make version-control directory
+cd version-control            		# go to version-control directory
+notepad lesson_1_reflections.txt 	# launch notepadwith file called lesson_1_reflections.txt
+pwd					# print working directory - shows what directory you are in
+ls  					# list the files in this directory
+git log
+gitt diff
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+You can play with the code without worrying that you're erasing something important.
+If something worked better in an earlier version you can restore.
+Maybe something that you deleted can actually be useful again.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, 
+vs having versions automatically saved, like Google Docs does?
+Con - Forgetting to commit
+Pro - not having too many versions
+	deciding when to commit
+
+How can you use the commands git log and git diff to view the history of files?
+
+How might using version control make you more confident to make changes that could break something?
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+What happens when you initialize a repository? Why do you need to do it?
+git init 			#starts a repository
+git status			#status of repository
